@@ -1,12 +1,31 @@
-# Expo Router Example
+# React Native Job App
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+A React Native job search app based on JSearch API from RapidAPI and running on Expo.
+Adaptation of the course from JavaScript Mastery
 
 ## 🚀 How to use
 
-```sh
-npx create-expo-app -e with-router
+Prerequisites : Node.js, npm, expo
+
 ```
+npm install
+npm start
+```
+
+
+## Features
+
+- Fetches job from different job services (Indeed, Google Jobs, Linkedin, Upwork...)
+- Welcome Page with Popular Jobs and Nearby Jobs
+- Search bar
+- Access Job details including qualifications, requirements, etc by clicking any job announcement
+- Apply to jobs directly by tapping apply link
+
+## To be developed
+
+- Accounts & account customization
+- Fast apply system (one click apply for any platform
+- More filters for job offers (location, level...)
 
 ## 📝 Notes
 
